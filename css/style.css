@@ -1,0 +1,22 @@
+html {
+    background-color: gainsboro;
+}
+
+th[scope='row'] {
+    color: mediumvioletred;
+}
+
+th[scope='col'] {
+    color: dimgray;
+}
+
+body {
+    font-family: sans-serif;
+    color: black;
+}
+
+td h2 {
+    font-family: monospace;
+    color: mediumvioletred;
+}
+
