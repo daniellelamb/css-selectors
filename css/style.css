@@ -2,12 +2,24 @@ html {
     background-color: gainsboro;
 }
 
+h1 {
+    color: dimgray;
+    text-transform:uppercase;
+}
+
 th[scope='row'] {
     color: mediumvioletred;
+    text-transform: uppercase;
 }
 
 th[scope='col'] {
     color: dimgray;
+    text-transform: uppercase;
+}
+
+td h2 {
+    font-family: monospace;
+    color: mediumvioletred;
 }
 
 body {
@@ -15,8 +27,4 @@ body {
     color: black;
 }
 
-td h2 {
-    font-family: monospace;
-    color: mediumvioletred;
-}
 
