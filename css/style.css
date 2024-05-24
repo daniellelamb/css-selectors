@@ -2,9 +2,21 @@ html {
     background-color: gainsboro;
 }
 
+table {
+    text-align: left;
+    table-layout: fixed;
+    width: 80%;
+}
+
 h1 {
     color: dimgray;
     text-transform:uppercase;
+}
+
+th[scope='col'] {
+    color: dimgray;
+    text-transform: uppercase;
+    border-bottom: 2px solid dimgray;
 }
 
 th[scope='row'] {
@@ -12,14 +24,15 @@ th[scope='row'] {
     text-transform: uppercase;
 }
 
-th[scope='col'] {
-    color: dimgray;
-    text-transform: uppercase;
-}
-
 td h2 {
     font-family: monospace;
     color: mediumvioletred;
+}
+
+th, td {
+    padding: 7px 10px 10px 10px;
+    border-top: 2px dotted dimgray;
+    border-collapse: collapse;
 }
 
 body {
