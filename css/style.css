@@ -13,22 +13,29 @@ table {
 h1 {
     color: dimgray;
     text-transform:uppercase;
+    font-weight: lighter;
+    letter-spacing: 0.08em;
 }
 
 th[scope='col'] {
     color: dimgray;
     text-transform: uppercase;
     border-bottom: 2px solid dimgray;
+    font-weight: lighter;
+    letter-spacing: 0.08em;
 }
 
 th[scope='row'] {
     color: mediumvioletred;
     text-transform: uppercase;
+    font-weight: lighter;
+    letter-spacing: 0.08em;
 }
 
 td h2 {
-    font-family: monospace;
     color: mediumvioletred;
+    font-family: monospace;
+    font-weight: lighter;
 }
 
 th, td {
