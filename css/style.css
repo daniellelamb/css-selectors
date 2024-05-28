@@ -10,11 +10,16 @@ table {
     margin-right: auto;
 }
 
+td {
+    vertical-align: top;
+}
+
 h1 {
     color: dimgray;
     text-transform:uppercase;
     font-weight: lighter;
     letter-spacing: 0.08em;
+    margin: 40px;
 }
 
 th[scope='col'] {
@@ -30,6 +35,7 @@ th[scope='row'] {
     text-transform: uppercase;
     font-weight: lighter;
     letter-spacing: 0.08em;
+    vertical-align: top;
 }
 
 td h2 {
@@ -41,7 +47,6 @@ td h2 {
 th, td {
     padding: 7px 10px 10px 10px;
     border-top: 2px dotted dimgray;
-    border-collapse: collapse;
 }
 
 body {
