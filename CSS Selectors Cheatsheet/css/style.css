@@ -45,7 +45,7 @@ th[scope='row'] {
     vertical-align: top;
 }
 
-td code {
+td code:not(.plain) {
     color: mediumvioletred;
     font-family: monospace;
 }
