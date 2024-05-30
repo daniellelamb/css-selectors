@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Selectors</title>
+        <link 
+            href="css/style.css" 
+            type="text/css" 
+            rel="stylesheet" />
+    </head>
+    <body>
+        <h1>CSS Selectors</h1>
+        <table>
+            <caption>
+                <em>Design and content derived from Duckett (2014, p. 238) for the purpose of personal HTML and CSS practice.</em>
+                <br>
+                Duckett, J. (2014). <em>HTML and CSS: Design and Build Websites.</em> Wiley.
+            </caption>
+            
+            <tr>
+                <th scope="col">Selector</th>
+                <th scope="col">Meaning</th>
+                <th scope="col">Example</th>
+            </tr>
+
+            <tr>
+                <th scope="row">Universal Selector</th>
+                <td>
+                    Applies to all elements in the document
+                </td>
+                <td>
+                    <h2>* {}</h2>
+                    Targets all elements on the page
+                </td>
+            </tr>
+
+            <tr>
+                <th scope="row">Type Selector</th>
+                <td>
+                    Matches element names
+                </td>
+                <td>
+                    <h2>h1, h2, h3 {}</h2>
+                    Targets the &lt;h1&gt;, &lt;h2&gt;, and &lt;h3&gt; elements
+                </td>
+            </tr>
+
+            <tr>
+                <th scope="row">Class Selector</th>
+                <td>
+                    Matches an element whose <code>class</code> attribute has a value that matches the one specified after the period (or full stope) symbol
+                </td>
+                <td>
+                    <h2>.note {}</h2>
+                    Targets any element whose <code>class</code> attribute has a value of <code>note</code>
+                    <h2>p.note {}</h2>
+                    Targets only &lt;p&gt; elements whose <code>class</code> attribute has a value of <code>note</code>
+                </td>
+            </tr>
+
+            <tr>
+                <th scope="row">ID Selector</th>
+                <td>
+                    Matches an element whose <code>id</code> attribute has a value that matches the one specified after the pound or hash symbol
+                </td>
+                <td>
+                    <h2>#introduction {}</h2>
+                    Targets the element whose <code>id</code> attribute has a value of <code>introduction</code>
+                </td>
+            </tr>
+
+            <tr>
+                <th scope="row">Child Selector</th>
+                <td>
+                    Matches an element that is a direct child of another
+                </td>
+                <td>
+                    <h2>li&gt;a {}</h2>
+                    Targets any &lt;a&gt; elements that are children of an &lt;li&gt; element (but not other &lt;a&gt; elements in the page)
+                </td>
+            </tr>
+
+            <tr>
+                <th scope="row">Descendant Selector</th>
+                <td>
+                    Matches an element that is a descendant of another specified element (not just a direct child of that element)
+                </td>
+                <td>
+                    <h2>p a {}</h2>
+                    Targets any &lt;a&gt; elements that sit inside a &lt;p&gt; element, even if there are other elements nested between them
+                </td>
+            </tr>
+
+            <tr>
+                <th scope="row">Adjacent Sibling Selector</th>
+                <td>
+                    Matches an element that is the next sibling of another
+                </td>
+                <td>
+                    <h2>h1+p {}</h2>
+                    Targets the first &lt;p&gt; element after any &lt;h1&gt; element (but not other &lt;p&gt; elements)
+                </td>
+            </tr>
+
+            <tr>
+                <th scope="row">General Sibling Selector</th>
+                <td>
+                    Matches an element that is a sibling of another, although it does not have to be the directly preceding element
+                </td>
+                <td>
+                    <h2>h1~p {}</h2>
+                    If you had two &lt;p&gt; elements that are siblings of an &lt;h1&gt; element, this rule would apply to both
+                </td>
+            </tr>
+          
+        </table>
+    </body>
+</html>
