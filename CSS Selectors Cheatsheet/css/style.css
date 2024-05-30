@@ -45,10 +45,9 @@ th[scope='row'] {
     vertical-align: top;
 }
 
-td h2 {
+td code {
     color: mediumvioletred;
     font-family: monospace;
-    font-weight: lighter;
 }
 
 th, td {
